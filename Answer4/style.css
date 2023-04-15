@@ -1,0 +1,121 @@
+/**
+ *
+ * @author Akbar Yudhanto
+ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0055A4;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #003A70;
+}
+
+header {
+    background-color: #0077C0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header img {
+    max-height: 60px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #003A70;
+  }
+  
+main {
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0077C0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #EDEDED;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .privacy-policy {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .privacy-policy a {
+    color: #0077C0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .privacy-policy a:hover {
+    color: #003A70;
+  }

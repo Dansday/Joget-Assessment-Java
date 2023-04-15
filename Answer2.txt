@@ -1,0 +1,21 @@
+/**
+ *
+ * @author Akbar Yudhanto
+ */
+
+// Creating an empty array to store the random numbers
+let randomNumbers = [];
+
+// Loop 10 times to generate 10 random integers between 1 - 1000
+for (let i = 0; i < 10; i++) {
+  // Generate a random integer between 1 - 1000 and add it to the array
+  randomNumbers.push(Math.floor(Math.random() * 1000) + 1);
+}
+
+// Display each of the numbers in the array
+console.log("Random numbers:");
+randomNumbers.forEach((number) => console.log(number));
+
+// Calculate and display the sum of the array
+const sum = randomNumbers.reduce((acc, curr) => acc + curr);
+console.log("Sum of the array:", sum);

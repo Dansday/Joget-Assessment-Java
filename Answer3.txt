@@ -1,0 +1,10 @@
+/**
+ *
+ * @author Akbar Yudhanto
+ */
+
+// https://www.joget.com navbar has a class of "nav-wrap"
+const navbar = document.querySelector(".nav-wrap");
+
+// Set the display property of the navbar to none
+navbar.style.display = "none";
